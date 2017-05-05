@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1DAB9F1EBC21E400CC962A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DAB9E1EBC21E400CC962A /* main.m */; };
+		4F1DABA21EBC21E400CC962A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DABA11EBC21E400CC962A /* AppDelegate.m */; };
+		4F1DABA51EBC21E400CC962A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DABA41EBC21E400CC962A /* ViewController.m */; };
+		4F1DABAA1EBC21E400CC962A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1DABA91EBC21E400CC962A /* Assets.xcassets */; };
+		4F1DABAD1EBC21E400CC962A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1DABAB1EBC21E400CC962A /* LaunchScreen.storyboard */; };
+		4F1DABB81EBC222F00CC962A /* unLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DABB71EBC222F00CC962A /* unLock.m */; };
+		4F1DABBD1EBC265900CC962A /* 美女.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F1DABBA1EBC265900CC962A /* 美女.gif */; };
+		4F1DABBE1EBC265900CC962A /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1DABBC1EBC265900CC962A /* GifView.m */; };
+		4F1DABC11EBC270400CC962A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DABC01EBC270400CC962A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F1DAB9A1EBC21E400CC962A /* 3DTouch+指纹解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3DTouch+指纹解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1DAB9E1EBC21E400CC962A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F1DABA01EBC21E400CC962A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F1DABA11EBC21E400CC962A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F1DABA31EBC21E400CC962A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F1DABA41EBC21E400CC962A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F1DABA91EBC21E400CC962A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1DABAC1EBC21E400CC962A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F1DABAE1EBC21E400CC962A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1DABB61EBC222F00CC962A /* unLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unLock.h; sourceTree = "<group>"; };
+		4F1DABB71EBC222F00CC962A /* unLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unLock.m; sourceTree = "<group>"; };
+		4F1DABBA1EBC265900CC962A /* 美女.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "美女.gif"; sourceTree = "<group>"; };
+		4F1DABBB1EBC265900CC962A /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
+		4F1DABBC1EBC265900CC962A /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
+		4F1DABC01EBC270400CC962A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1DAB971EBC21E400CC962A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1DABC11EBC270400CC962A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1DAB911EBC21E400CC962A = {
+			isa = PBXGroup;
+			children = (
+				4F1DABB91EBC265000CC962A /* 动态图 */,
+				4F1DABB41EBC222400CC962A /* 3Dtouch */,
+				4F1DABB51EBC222400CC962A /* 指纹 */,
+				4F1DAB9C1EBC21E400CC962A /* 3DTouch+指纹解锁 */,
+				4F1DAB9B1EBC21E400CC962A /* Products */,
+				4F1DABBF1EBC270400CC962A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1DAB9B1EBC21E400CC962A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DAB9A1EBC21E400CC962A /* 3DTouch+指纹解锁.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F1DAB9C1EBC21E400CC962A /* 3DTouch+指纹解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DABA01EBC21E400CC962A /* AppDelegate.h */,
+				4F1DABA11EBC21E400CC962A /* AppDelegate.m */,
+				4F1DABA31EBC21E400CC962A /* ViewController.h */,
+				4F1DABA41EBC21E400CC962A /* ViewController.m */,
+				4F1DABA91EBC21E400CC962A /* Assets.xcassets */,
+				4F1DABAB1EBC21E400CC962A /* LaunchScreen.storyboard */,
+				4F1DABAE1EBC21E400CC962A /* Info.plist */,
+				4F1DAB9D1EBC21E400CC962A /* Supporting Files */,
+			);
+			path = "3DTouch+指纹解锁";
+			sourceTree = "<group>";
+		};
+		4F1DAB9D1EBC21E400CC962A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DAB9E1EBC21E400CC962A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1DABB41EBC222400CC962A /* 3Dtouch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3Dtouch;
+			path = "3DTouch+指纹解锁/3Dtouch";
+			sourceTree = "<group>";
+		};
+		4F1DABB51EBC222400CC962A /* 指纹 */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DABB61EBC222F00CC962A /* unLock.h */,
+				4F1DABB71EBC222F00CC962A /* unLock.m */,
+			);
+			name = "指纹";
+			path = "3DTouch+指纹解锁/指纹";
+			sourceTree = "<group>";
+		};
+		4F1DABB91EBC265000CC962A /* 动态图 */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DABBA1EBC265900CC962A /* 美女.gif */,
+				4F1DABBB1EBC265900CC962A /* GifView.h */,
+				4F1DABBC1EBC265900CC962A /* GifView.m */,
+			);
+			name = "动态图";
+			path = "3DTouch+指纹解锁/动态图";
+			sourceTree = "<group>";
+		};
+		4F1DABBF1EBC270400CC962A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DABC01EBC270400CC962A /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F1DAB991EBC21E400CC962A /* 3DTouch+指纹解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1DABB11EBC21E400CC962A /* Build configuration list for PBXNativeTarget "3DTouch+指纹解锁" */;
+			buildPhases = (
+				4F1DAB961EBC21E400CC962A /* Sources */,
+				4F1DAB971EBC21E400CC962A /* Frameworks */,
+				4F1DAB981EBC21E400CC962A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DTouch+指纹解锁";
+			productName = "3DTouch+指纹解锁";
+			productReference = 4F1DAB9A1EBC21E400CC962A /* 3DTouch+指纹解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1DAB921EBC21E400CC962A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王亚军";
+				TargetAttributes = {
+					4F1DAB991EBC21E400CC962A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UN7WQUBM37;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F1DAB951EBC21E400CC962A /* Build configuration list for PBXProject "3DTouch+指纹解锁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1DAB911EBC21E400CC962A;
+			productRefGroup = 4F1DAB9B1EBC21E400CC962A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1DAB991EBC21E400CC962A /* 3DTouch+指纹解锁 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1DAB981EBC21E400CC962A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1DABAD1EBC21E400CC962A /* LaunchScreen.storyboard in Resources */,
+				4F1DABAA1EBC21E400CC962A /* Assets.xcassets in Resources */,
+				4F1DABBD1EBC265900CC962A /* 美女.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1DAB961EBC21E400CC962A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1DABA51EBC21E400CC962A /* ViewController.m in Sources */,
+				4F1DABA21EBC21E400CC962A /* AppDelegate.m in Sources */,
+				4F1DAB9F1EBC21E400CC962A /* main.m in Sources */,
+				4F1DABBE1EBC265900CC962A /* GifView.m in Sources */,
+				4F1DABB81EBC222F00CC962A /* unLock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F1DABAB1EBC21E400CC962A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1DABAC1EBC21E400CC962A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F1DABAF1EBC21E400CC962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F1DABB01EBC21E400CC962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F1DABB21EBC21E400CC962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UN7WQUBM37;
+				INFOPLIST_FILE = "3DTouch+指纹解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchid.yajun.-DTouch-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1DABB31EBC21E400CC962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UN7WQUBM37;
+				INFOPLIST_FILE = "3DTouch+指纹解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchid.yajun.-DTouch-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1DAB951EBC21E400CC962A /* Build configuration list for PBXProject "3DTouch+指纹解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1DABAF1EBC21E400CC962A /* Debug */,
+				4F1DABB01EBC21E400CC962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1DABB11EBC21E400CC962A /* Build configuration list for PBXNativeTarget "3DTouch+指纹解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1DABB21EBC21E400CC962A /* Debug */,
+				4F1DABB31EBC21E400CC962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F1DAB921EBC21E400CC962A /* Project object */;
+}
