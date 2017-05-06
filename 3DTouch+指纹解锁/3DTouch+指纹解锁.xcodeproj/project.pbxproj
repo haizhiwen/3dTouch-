@@ -52,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				4F1DABB91EBC265000CC962A /* 动态图 */,
-				4F1DABB41EBC222400CC962A /* 3Dtouch */,
 				4F1DABB51EBC222400CC962A /* 指纹 */,
 				4F1DAB9C1EBC21E400CC962A /* 3DTouch+指纹解锁 */,
 				4F1DAB9B1EBC21E400CC962A /* Products */,
@@ -89,14 +88,6 @@
 				4F1DAB9E1EBC21E400CC962A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4F1DABB41EBC222400CC962A /* 3Dtouch */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = 3Dtouch;
-			path = "3DTouch+指纹解锁/3Dtouch";
 			sourceTree = "<group>";
 		};
 		4F1DABB51EBC222400CC962A /* 指纹 */ = {
@@ -318,6 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UN7WQUBM37;
 				INFOPLIST_FILE = "3DTouch+指纹解锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.touchid.yajun.-DTouch-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -330,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UN7WQUBM37;
 				INFOPLIST_FILE = "3DTouch+指纹解锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.touchid.yajun.-DTouch-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +348,7 @@
 				4F1DABB31EBC21E400CC962A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
